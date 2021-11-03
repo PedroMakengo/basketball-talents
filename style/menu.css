@@ -1,0 +1,39 @@
+header {
+  height: 10vh;
+  background: #fd4c02;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* border-bottom: 1px solid #fd4c02; */
+
+  color: #fff;
+}
+
+header .container nav ul {
+  display: flex;
+}
+
+header .container nav ul li a {
+  margin-left: 2rem;
+  text-decoration: none;
+
+  display: block;
+  padding: 40px 0px;
+
+  color: #fff;
+
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+header .container nav ul li a.active {
+  color: #fff;
+  font-weight: bold;
+}
