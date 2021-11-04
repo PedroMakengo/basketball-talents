@@ -96,17 +96,53 @@ li {
 
 .sobre .contexto-sobre ul li {
   margin-top: 1rem;
-  border-bottom: 1px dashed #fd4d0271;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sobre .contexto-sobre ul li h1 {
-  margin-bottom: 0.5rem;
+  color: #2f2f2f;
+}
+
+.sobre .contexto-sobre ul li .bg-img {
+  width: 140px;
+  height: 70px;
+
+  border-radius: 6px;
+  background: #fd4c02;
+  margin-right: 2rem;
+
+  box-shadow: 0px 0px 10px 0px white rgba(0, 0, 0, 0.5);
+}
+
+.sobre .contexto-sobre ul li .bg-img::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fd4c02;
+
+  position: relative;
+  float: right;
+  left: 15px;
+  top: 20px;
+}
+
+.sobre .contexto-sobre ul li .content-sobre-content {
+  width: 900px;
+  border-bottom: 1px dashed #fd4c02;
+  padding-bottom: 1rem;
 }
 
 .sobre .photos {
   width: 50%;
   text-align: center;
-  background-color: #fd4d0271;
+  background: linear-gradient(#fff, #f55510);
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 
   margin: 5rem 0;
