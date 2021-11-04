@@ -75,9 +75,13 @@ li {
 
 /* SOBRE */
 
+.sobre {
+  height: 80vh;
+}
+
 .sobre .container {
   max-width: 1200px;
-  height: 80vh;
+  height: 100%;
   margin: 4rem auto;
 
   display: flex;
@@ -87,13 +91,23 @@ li {
 
 .sobre .contexto-sobre {
   width: 50%;
+  margin-right: 4rem;
+}
+
+.sobre .contexto-sobre ul li {
+  margin-top: 1rem;
+  border-bottom: 1px dashed #fd4d0271;
+}
+
+.sobre .contexto-sobre ul li h1 {
+  margin-bottom: 0.5rem;
 }
 
 .sobre .photos {
   width: 50%;
   text-align: center;
   background-color: #fd4d0271;
-  border-radius: 50%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 
   margin: 5rem 0;
 }
