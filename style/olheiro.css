@@ -1,6 +1,6 @@
 .olheiro {
+  background: linear-gradient(#fff, #f55510);
   height: 50vh;
-
   margin: 4rem 0;
 }
 
@@ -17,4 +17,44 @@
 
 .olheiro h1 {
   font-size: 40px;
+}
+
+.avatar-olheiro .avatar {
+  background-color: #fd4c02;
+  width: 110px;
+  height: 110px;
+
+  border-radius: 0.5rem;
+}
+
+.avatar-olheiro img {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar-olheiro {
+  display: flex;
+}
+
+.avatar-olheiro .avatar-content {
+  width: 500px;
+  margin-left: 2rem;
+}
+
+.button a {
+  background: #fd4c02;
+
+  display: flex;
+  width: 200px;
+  height: 3rem;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.4rem;
+
+  color: #fff;
+  text-decoration: none;
+
+  font-weight: bold;
 }
