@@ -15,8 +15,12 @@ li {
 
 .banner {
   background: #fd4c02;
-  background-size: 70%;
-  height: 85vh;
+  background-image: url(../image/Elemento-4.png);
+  background-size: 110%;
+  background-position: center;
+  background-position-x: -300px;
+  height: 100vh;
+  padding: 0;
 }
 
 .banner .container {

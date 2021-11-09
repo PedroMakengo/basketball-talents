@@ -1,5 +1,7 @@
 .olheiro {
-  background: linear-gradient(#fff, #f55510);
+  background-image: linear-gradient(#ffffff59, #f55510a1),
+    url(../image/Elemento-4.png);
+  background-position: center;
   height: 50vh;
   margin: 4rem 0;
 }

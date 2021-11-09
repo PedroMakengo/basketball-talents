@@ -37,6 +37,7 @@
 
   border-radius: 6px;
   background: #fd4c02;
+
   margin-right: 2rem;
 
   box-shadow: 0px 0px 10px 0px white rgba(0, 0, 0, 0.5);
@@ -67,7 +68,9 @@
 .sobre .photos {
   width: 50%;
   text-align: center;
-  background: linear-gradient(#fff, #f55510);
+  background-image: linear-gradient(#ffffff59, #f55510e8),
+    url(../image/Elemento-4.png);
+  background-position: center;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 
   margin: 5rem 0;
