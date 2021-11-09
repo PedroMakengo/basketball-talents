@@ -1,0 +1,36 @@
+.noticias {
+  height: 70vh;
+}
+
+.noticias .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.noticias h1 {
+  background: teal;
+
+  width: 200px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.noticias .content-noticias {
+  margin: 4rem auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticias .content-noticias .item-noticia {
+  width: 50%;
+}
+
+.noticias .content-noticias .item-noticia:nth-child(1n + 2) {
+  margin-left: 2rem;
+}
