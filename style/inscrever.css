@@ -1,0 +1,26 @@
+.inscrever {
+  height: 65vh;
+
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.inscrever .container {
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+
+  background: red;
+}
+
+.inscrever .container .content-form {
+  display: flex !important;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.inscrever .container .content-form .img-form {
+  background: #757575;
+  width: 30%;
+}
