@@ -15,10 +15,12 @@ li {
 
 .banner {
   background: #fd4c02;
-  background-image: url(../image/Elemento-4.png);
-  background-size: 110%;
+  background-image: url(../image/Elemento-2.png);
+  background-size: 90%;
   background-position: center;
   background-position-x: -300px;
+  background-position-y: 70px;
+  background-repeat: no-repeat;
   height: 100vh;
   padding: 0;
 }
@@ -75,4 +77,24 @@ li {
   font-weight: bold;
 
   text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  height: 40vh;
+  background: #fd4c02;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+footer .container .item-footer {
+  display: flex;
+  margin-top: 3rem;
 }

@@ -1,0 +1,19 @@
+.mapa .container {
+  max-width: 1200px;
+  margin: 4rem auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.mapa-content {
+  width: 50%;
+  height: 400px;
+  background: #fd4c02;
+}
+
+.content-describe {
+  background: #fd4c02;
+  width: 50%;
+  margin-left: 2rem;
+}
