@@ -31,7 +31,7 @@
   width: 50%;
   transition: 0.3s ease-in-out;
 
-  color: #242424;
+  color: #242424a9;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@
 
 .text {
   padding: 5px 1rem;
-  background: teal;
+  background: tomato;
   margin-bottom: 2rem;
 
   color: #fff;
