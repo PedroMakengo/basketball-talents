@@ -10,16 +10,71 @@
   height: 80%;
   margin: 0 auto;
 
-  background: #fd4c02;
-}
-
-.inscrever .container .content-form {
   display: flex !important;
   justify-content: space-between;
-  height: 100%;
 }
 
-.inscrever .container .content-form .img-form {
-  background: #757575;
-  width: 30%;
+.inscrever .container .img-form {
+  background: linear-gradient(#000000a8, #000000a8), url(../image/balls.png);
+  width: 68%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.inscrever .container .img-form h2 {
+  width: 100%;
+
+  margin-bottom: 1rem;
+  font-weight: normal;
+
+  color: #fff;
+  width: 700px;
+}
+
+.inscrever .container .img-form h2:first-child {
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+
+.inscrever form {
+  width: 32%;
+
+  padding: 30px;
+  box-sizing: border-box;
+
+  background-color: #f7f7f7;
+}
+
+.inscrever form input {
+  width: 100%;
+  padding: 15px 30px;
+  margin-top: 0.5rem;
+
+  border-radius: 0.25rem;
+  border: 1px solid #fd4c02;
+}
+
+.inscrever form input::placeholder {
+  font-size: 0.9rem;
+  font-family: Poppins;
+}
+
+.inscrever form button {
+  width: 100%;
+  padding: 15px 30px;
+  margin-top: 1rem;
+
+  font-family: Poppins;
+  font-size: 0.9rem;
+
+  background: #fd4c02;
+  border: 0;
+  border-radius: 0.25rem;
+
+  color: #fff;
 }

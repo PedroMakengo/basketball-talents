@@ -14,12 +14,14 @@
   align-items: center;
 }
 
-.sobre .contexto-sobre {
+.sobre .contexto-sobre,
+.mapa .contexto-sobre {
   width: 50%;
   margin-right: 4rem;
 }
 
-.sobre .contexto-sobre ul li {
+.sobre .contexto-sobre ul li,
+.mapa .contexto-sobre ul li {
   margin-top: 1rem;
 
   display: flex;
@@ -27,11 +29,13 @@
   justify-content: space-between;
 }
 
-.sobre .contexto-sobre ul li h1 {
+.sobre .contexto-sobre ul li h1,
+.mapa .contexto-sobre ul li h1 {
   color: #2f2f2f;
 }
 
-.sobre .contexto-sobre ul li .bg-img {
+.sobre .contexto-sobre ul li .bg-img,
+.mapa .contexto-sobre ul li .bg-img {
   width: 140px;
   height: 70px;
 
@@ -43,7 +47,8 @@
   box-shadow: 0px 0px 10px 0px white rgba(0, 0, 0, 0.5);
 }
 
-.sobre .contexto-sobre ul li .bg-img::before {
+.sobre .contexto-sobre ul li .bg-img::before,
+.mapa .contexto-sobre ul li .bg-img::before {
   content: "";
   display: block;
   width: 0;
@@ -59,7 +64,8 @@
   top: 20px;
 }
 
-.sobre .contexto-sobre ul li .content-sobre-content {
+.sobre .contexto-sobre ul li .content-sobre-content,
+.mapa .contexto-sobre ul li .content-sobre-content {
   width: 900px;
   border-bottom: 1px dashed #fd4c02;
   padding-bottom: 1rem;
