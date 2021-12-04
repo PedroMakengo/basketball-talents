@@ -15,7 +15,8 @@
 }
 
 .inscrever .container .img-form {
-  background: linear-gradient(#000000a8, #000000a8), url(../image/balls.png);
+  background: linear-gradient(#000000a8, #000000dc),
+    url(../image/inscrever-2.jpg);
   width: 68%;
 
   display: flex;
@@ -24,6 +25,8 @@
   justify-content: center;
 
   padding: 20px;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .inscrever .container .img-form h2 {
@@ -47,7 +50,10 @@
   padding: 30px;
   box-sizing: border-box;
 
-  background-color: #f7f7f7;
+  background-color: #000;
+
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 
 .inscrever form input {
@@ -56,7 +62,10 @@
   margin-top: 0.5rem;
 
   border-radius: 0.25rem;
-  border: 1px solid #fd4c02;
+  border: 1px solid #fce100;
+  background: transparent;
+
+  color: #fce100;
 }
 
 .inscrever form input::placeholder {
@@ -72,9 +81,10 @@
   font-family: Poppins;
   font-size: 0.9rem;
 
-  background: #fd4c02;
+  background: #fce100;
   border: 0;
   border-radius: 0.25rem;
 
-  color: #fff;
+  color: #000;
+  font-weight: bold;
 }

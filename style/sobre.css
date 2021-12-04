@@ -47,7 +47,8 @@
   box-shadow: 0px 0px 10px 0px white rgba(0, 0, 0, 0.5);
 }
 
-.sobre .contexto-sobre ul li .bg-img .title {
+.sobre .contexto-sobre ul li .bg-img .title,
+.mapa .contexto-sobre ul li .bg-img .title {
   margin-top: 9px;
   font-size: 25px;
   display: flex;
