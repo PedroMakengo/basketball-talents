@@ -1,14 +1,18 @@
 .olheiro {
-  background: linear-gradient(#fff, #f55510);
   height: 50vh;
   margin: 4rem 0;
 }
 
 .olheiro .container {
+  background: #0d0d0e;
+
+  border-radius: 0.25rem;
+  padding: 30px;
+
   max-width: 1200px;
   margin: 0 auto;
 
-  height: 100%;
+  height: 70%;
 
   display: flex;
   align-items: center;
@@ -22,7 +26,7 @@
 }
 
 .avatar-olheiro .avatar {
-  background-color: #fd4c02;
+  background-color: #000;
   width: 110px;
   height: 110px;
 
@@ -43,7 +47,7 @@
 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #fd4c02;
+  border-left: 15px solid #000;
 
   position: relative;
   float: right;
@@ -68,7 +72,7 @@
 }
 
 .button a {
-  background: #fd4c02;
+  background: #000;
 
   display: flex;
   width: 200px;
@@ -79,7 +83,7 @@
 
   border-radius: 0.4rem;
 
-  color: #fff;
+  color: #fce100;
   text-decoration: none;
 
   font-weight: bold;
