@@ -37,6 +37,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  border: 2px solid #fce100;
 }
 
 .avatar-olheiro .avatar::after {
@@ -47,12 +49,12 @@
 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #000;
+  border-left: 15px solid #fce100;
 
   position: relative;
   float: right;
-  left: 28px;
-  top: -4px;
+  left: 32px;
+  top: -2px;
 }
 
 .avatar-olheiro img {
@@ -60,6 +62,9 @@
 
   width: 70px;
   height: 70px;
+
+  position: relative;
+  margin-right: -11px;
 }
 
 .avatar-olheiro {
@@ -87,4 +92,6 @@
   text-decoration: none;
 
   font-weight: bold;
+
+  border: 2px solid #fce100;
 }
