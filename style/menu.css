@@ -1,18 +1,19 @@
 header {
   height: 15vh;
   background: transparent;
+  border-top: 3px solid red;
 }
 
 header .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
-  /* border-bottom: 1px solid #fd4c02; */
-
+header .container .logo h2 {
   color: #fff;
 }
 
@@ -27,12 +28,11 @@ header .container nav ul li a {
   display: block;
   padding: 40px 0px;
 
-  color: #fff;
-
   border: 2px solid transparent;
+  color: #fff;
 }
 
 header .container nav ul li a.active {
-  color: #fff;
+  color: #fce100;
   font-weight: bold;
 }

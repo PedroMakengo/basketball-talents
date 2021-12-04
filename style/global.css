@@ -14,15 +14,17 @@ li {
 }
 
 .banner {
-  background: #fd4c02;
-  background-image: url(../image/Elemento-2.png);
-  background-size: 90%;
+  background: #0d0d0e;
+  background-image: url(../image/ondas.svg);
+  background-size: 100%;
   background-position: center;
-  background-position-x: -300px;
-  background-position-y: 70px;
+  /* background-position-x: -300px; */
+  background-position-y: bottom;
   background-repeat: no-repeat;
   height: 100vh;
   padding: 0;
+
+  border-top: 5px solid #fce100;
 }
 
 .banner .container {
@@ -46,7 +48,7 @@ li {
 /* Content */
 .content {
   width: 55%;
-  color: #fff;
+  color: #fce100;
 }
 
 .content h1 {
@@ -67,16 +69,21 @@ li {
   height: 40px;
 
   border-radius: 4px;
-  background: #fff;
+  background: #000;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  color: #fd4c02;
+  color: #fce100;
   font-weight: bold;
 
   text-decoration: none;
+}
+
+.content a:hover {
+  background: red;
+  color: #000;
 }
 
 /* FOOTER */
